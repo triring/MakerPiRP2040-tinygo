@@ -1,5 +1,8 @@
 # MakerPiRP2040-tinygo
 ## TinyGo で Cytron Maker Pi RP2040 を動かす。  
+
+<!-- pandoc -f markdown -t html5 -o README.html -c github.css README.md -->
+
 ある勉強会でマイコンの入出力について解説をすることになったので、その説明資料として作成した簡単なサンプル集です。   
 開発環境は、[TinyGo](https://tinygo.org/) を用い、[Cytron社](https://www.cytron.io/) の[Maker Pi RP2040](https://www.cytron.io/p-maker-pi-rp2040-simplifying-robotics-with-raspberry-pi-rp2040)
  をターゲットとして作成しました。　
@@ -24,9 +27,18 @@
     * インジケータに使える直列に配置されたLED	13個
 * ブザーが1個(On/Offスイッチ付き)
 
+
+<img src="photo/IMG_8105_800x600.jpg" alt="Maker Pi RP2040 表" width="60%">  
+Maker Pi RP2040 表  
+
+<img src="photo/IMG_8106_800x600.jpg" alt="Maker Pi RP2040 裏" width="60%">  
+Maker Pi RP2040 裏  
+
 ## Software:
 
-[TinyGo](https://tinygo.org/)
+[TinyGo](https://tinygo.org/) を使用します。  
+
+
 
 ### 開発環境のインストール  
 
